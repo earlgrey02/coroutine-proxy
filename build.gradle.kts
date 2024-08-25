@@ -13,6 +13,8 @@ repositories {
 dependencies {
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation(libs.coroutine)
+    testImplementation(libs.bundles.kotest)
+    testImplementation(libs.bundles.mockk)
 }
 
 tasks {
