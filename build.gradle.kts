@@ -12,6 +12,7 @@ repositories {
 
 dependencies {
     implementation("org.jetbrains.kotlin:kotlin-reflect")
+    implementation(libs.coroutine)
 }
 
 tasks {
