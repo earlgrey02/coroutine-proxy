@@ -1,3 +1,8 @@
+plugins {
+    alias(libs.plugins.kotlin)
+    id("java-test-fixtures")
+}
+
 group = "com.kotlinx"
 version = "1.0.0"
 
